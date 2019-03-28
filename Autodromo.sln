@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodromo.Data.VO", "Autodromo.VO\Autodromo.Data.VO.csproj", "{7476B662-0629-4893-B98C-3E731DC966CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodromo.Data.DA", "Autodromo.DA\Autodromo.Data.DA.csproj", "{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodromo.Data.TestUnit", "Autodromo.Data.TestUnit\Autodromo.Data.TestUnit.csproj", "{325C9DD0-4036-4973-A6BA-950B081C93DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodromo.Data.BL", "Autodromo.Data.BL\Autodromo.Data.BL.csproj", "{034F266A-F813-4137-A91B-BA9577FB9FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodromo.UI", "Autodromo\Autodromo.UI.csproj", "{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutodromoInstall", "AutodromoInstall\AutodromoInstall.vdproj", "{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Debug|x86.ActiveCfg = Debug|x86
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Debug|x86.Build.0 = Debug|x86
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Release|x86.ActiveCfg = Release|x86
+		{7476B662-0629-4893-B98C-3E731DC966CC}.Release|x86.Build.0 = Release|x86
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Debug|x86.ActiveCfg = Debug|x86
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Debug|x86.Build.0 = Debug|x86
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Release|x86.ActiveCfg = Release|x86
+		{8DFA9A24-CD31-440B-92A5-2E12CA4921CF}.Release|x86.Build.0 = Release|x86
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Debug|x86.ActiveCfg = Debug|x86
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Debug|x86.Build.0 = Debug|x86
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Release|x86.ActiveCfg = Release|x86
+		{325C9DD0-4036-4973-A6BA-950B081C93DD}.Release|x86.Build.0 = Release|x86
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Debug|x86.ActiveCfg = Debug|x86
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Debug|x86.Build.0 = Debug|x86
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Release|x86.ActiveCfg = Release|x86
+		{034F266A-F813-4137-A91B-BA9577FB9FCF}.Release|x86.Build.0 = Release|x86
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Debug|x86.ActiveCfg = Debug|x86
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Debug|x86.Build.0 = Debug|x86
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Release|x86.ActiveCfg = Release|x86
+		{4BFEC54D-907D-4E47-9B88-1EF8CE243A70}.Release|x86.Build.0 = Release|x86
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Debug|Any CPU.ActiveCfg = Debug
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Debug|x86.ActiveCfg = Debug
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Debug|x86.Build.0 = Debug
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Release|Any CPU.ActiveCfg = Release
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Release|x86.ActiveCfg = Release
+		{D7F41BF7-30D7-46A2-B0FE-DF2A2BAB9F39}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://darkk3ndev.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Autodromo.DA\\Autodromo.Data.DA.csproj
+		SccProjectName1 = Autodromo.DA
+		SccLocalPath1 = Autodromo.DA
+		SccProjectUniqueName2 = Autodromo.Data.BL\\Autodromo.Data.BL.csproj
+		SccProjectName2 = Autodromo.Data.BL
+		SccLocalPath2 = Autodromo.Data.BL
+		SccProjectUniqueName3 = Autodromo.Data.TestUnit\\Autodromo.Data.TestUnit.csproj
+		SccProjectName3 = Autodromo.Data.TestUnit
+		SccLocalPath3 = Autodromo.Data.TestUnit
+		SccProjectUniqueName4 = Autodromo.VO\\Autodromo.Data.VO.csproj
+		SccProjectName4 = Autodromo.VO
+		SccLocalPath4 = Autodromo.VO
+		SccProjectUniqueName5 = AutodromoInstall\\AutodromoInstall.vdproj
+		SccProjectName5 = AutodromoInstall
+		SccLocalPath5 = AutodromoInstall
+		SccProjectUniqueName6 = Autodromo\\Autodromo.UI.csproj
+		SccProjectName6 = Autodromo
+		SccLocalPath6 = Autodromo
+	EndGlobalSection
+EndGlobal
